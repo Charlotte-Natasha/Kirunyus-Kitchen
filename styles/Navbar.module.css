@@ -1,0 +1,91 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.logo span{
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.menu{
+    flex: 1;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+    z-index: 99;
+    position: relative;
+    text-decoration: none;
+}
+
+.menu::before,
+.menu::after{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transition: transform .25s;
+    content: '';
+    height: 2px;
+    background-color: var(--red);
+}
+
+.menu::before{
+    top: -3px;
+    transform-origin: left;
+}
+
+.menu::after{
+    bottom: -3px;
+    transform-origin: right;
+}
+
+.menu:hover:before,
+.menu:hover:after{
+    transform: scaleX(1);
+}
+
+.menu li{
+    cursor: pointer;
+    /* color: var(--red); */
+}
+
+.cartSide{
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.cart{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.badge{
+    position: absolute;
+    display: flex;
+    background-color: var(--red);
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -0.5rem;
+}

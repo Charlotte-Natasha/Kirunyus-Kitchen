@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+
 html,
 body{
     font-family: 'Montserrat', sans-serif;
@@ -12,7 +14,7 @@ body{
 :root{
     --gold: #ffdb58;
     --black: #000000;
-    --red: #830f09;
+    --red: #ff0000;
     --grey: #BABCBB;
     --shadow: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,219,88,1) 100%);;
     --background-color: ;
