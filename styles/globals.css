@@ -1,26 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
 html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    color: var(--black);
+    background: var(--background-color);
 }
+
+:root{
+    --gold: #ffdb58;
+    --black: #000000;
+    --red: #830f09;
+    --grey: #BABCBB;
+    --shadow: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,219,88,1) 100%);;
+    --background-color: ;
+    --cartBack: #FFE25D;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+  /* Track */
+::-webkit-scrollbar-track {
+    background: var(--red);
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--gold);
+    border-radius: 1rem;
+}
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b00506;
+}
+
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
+  * {
+    box-sizing: border-box;
+    transition: all 300ms ease;
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
