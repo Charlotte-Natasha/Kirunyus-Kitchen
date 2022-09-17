@@ -2,7 +2,8 @@ import React from 'react'
 import css from '../styles/Hero.module.css'
 import Image from 'next/image'
 import Cherry from '../assets/breakfast/Cherry.png'
-import HeroImage from '../assets/k.k.jpeg'
+import HeroImage from '../assets/k.k.l.png'
+import {UilPhone} from '@iconscout/react-unicons'
 
 const Hero = () => {
     return (
@@ -30,9 +31,16 @@ const Hero = () => {
             </div>
             
             <div className={css.right}>
-                <css className={css.imageContainer}>
+                <div className={css.imageContainer}>
                     <Image src={HeroImage} alt='' layout='intrinsic'/>
-                </css>
+                </div>
+
+                <div className={css.contact}>
+                    <span>Contact Me</span>
+                    <div>
+                        <UilPhone color='white'/>
+                    </div>
+                </div>
             </div>
             
         </div>
