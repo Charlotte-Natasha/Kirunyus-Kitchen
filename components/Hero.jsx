@@ -2,6 +2,7 @@ import React from 'react'
 import css from '../styles/Hero.module.css'
 import Image from 'next/image'
 import Cherry from '../assets/breakfast/Cherry.png'
+import HeroImage from '../assets/k.k.jpeg'
 
 const Hero = () => {
     return (
@@ -28,7 +29,11 @@ const Hero = () => {
                 </button>
             </div>
             
-            
+            <div className={css.right}>
+                <css className={css.imageContainer}>
+                    <Image src={HeroImage} alt='' layout='intrinsic'/>
+                </css>
+            </div>
             
         </div>
     )

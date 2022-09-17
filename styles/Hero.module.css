@@ -38,3 +38,13 @@
     padding: 1rem 2.5rem
     ;
 }
+
+.right{
+    position: relative;
+}
+
+.imageContainer{
+    width: 38rem;
+    position: absolute;
+    top: -7rem;
+}
