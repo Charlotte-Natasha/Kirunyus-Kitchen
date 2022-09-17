@@ -7,7 +7,7 @@ import Logo from '../assets/k-logo.png'
 const Footer = () => {
     return (
         <div className={css.footer}>
-            <a href="">Created by</a>
+            {/* <span>Created by</span> */}
 
             <div className={css.socials}>
                 <UilFacebook size={35}/>

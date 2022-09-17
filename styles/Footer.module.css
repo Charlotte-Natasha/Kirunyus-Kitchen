@@ -1,0 +1,30 @@
+.footer{
+    background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: auto;
+    width: 100vw;
+    color: #fff;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.logo span{
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Eagle Lake', cursive;
+}
