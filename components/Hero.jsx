@@ -7,14 +7,25 @@ const Hero = () => {
     return (
         <div className={css.container}>
 
-            <div className={css.ndazi}>
-                <span>Explore your taste buds.</span>
-                <Image src={Cherry} alt=''/>
+            <div className={css.left}>
+                <div className={css.ndazi}>
+                    <span>Explore your taste buds.</span>
+                    <Image src={Cherry} alt=''/>
+                </div>
+
+                <div className={css.hero}>
+                    <span>Hi, Lilian Kirunyu here</span>
+                    <span>a self-taught</span>
+                    <span style={{color: "var(--red)"}}>Baker.</span>
+                </div>
+
+                <span className={css.txt}>
+                    Order 3 days in advance
+                </span>
             </div>
             
-            <div className={css.right}>
-                1
-            </div>
+            
+            
         </div>
     )
 }
