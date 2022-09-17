@@ -23,7 +23,7 @@ const Hero = () => {
                     Order 3 days in advance
                 </span>
 
-                <button className='btn'>
+                <button className={`btn ${css.btn}`}>
                     Lets Talk Food
                 </button>
             </div>
