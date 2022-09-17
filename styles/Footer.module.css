@@ -1,9 +1,7 @@
-.footer{
+.container{
     background: #666;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     bottom: 0;
-    left: 0;
-    right: 0;
     position: absolute;
     height: auto;
     width: 100vw;
@@ -20,7 +18,7 @@
 .logo{
     display: flex;
     align-items: center;
-    margin-left: 1rem;
+    
 }
 
 .logo span{

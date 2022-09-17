@@ -6,7 +6,7 @@ import {UilShoppingBag} from '@iconscout/react-unicons'
 
 const Navbar = () => {
     return (
-        <div className={css.navbar}>
+        <div className={css.container}>
             <div className={css.logo}>
                 <Image src={Logo} alt='' width={100} height={100} />
                 <span>Kirunyus Kitchen</span>

@@ -6,7 +6,7 @@ import Logo from '../assets/k-logo.png'
 
 const Footer = () => {
     return (
-        <div className={css.footer}>
+        <div className={css.container}>
             {/* <span>Created by</span> */}
 
             <div className={css.socials}>

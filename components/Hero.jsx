@@ -5,7 +5,7 @@ import Cherry from '../assets/breakfast/Cherry.png'
 
 const Hero = () => {
     return (
-        <div className={css.hero}>
+        <div className={css.container}>
 
             <div className={css.ndazi}>
                 <span>Explore your taste buds.</span>
