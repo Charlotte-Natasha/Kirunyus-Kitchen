@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Cherry from '../assets/breakfast/Cherry.png'
 import HeroImage from '../assets/k.k.l.png'
 import {UilPhone} from '@iconscout/react-unicons'
+import Food2 from '../assets/food/food-2.jpeg'
 
 const Hero = () => {
     return (
@@ -41,6 +42,7 @@ const Hero = () => {
                         <UilPhone color='white'/>
                     </div>
                 </div>
+
             </div>
             
         </div>
