@@ -22,6 +22,10 @@ const Hero = () => {
                 <span className={css.txt}>
                     Order 3 days in advance
                 </span>
+
+                <button className='btn'>
+                    Lets Talk Food
+                </button>
             </div>
             
             
